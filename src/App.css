@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* App Container */
+  .app {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Card Design */
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title and Subtitle */
+  .title {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  /* File Input */
+  .file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  /* Image Preview */
+  .image-preview {
+    margin: 20px 0;
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Settings */
+  .settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .setting {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .input,
+  .select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  /* Button */
+  .button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .settings {
+      flex-direction: column;
+    }
+  
+    .setting {
+      width: 100%;
+    }
+  }
+  
